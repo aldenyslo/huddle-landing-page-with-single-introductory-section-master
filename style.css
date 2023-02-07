@@ -184,18 +184,26 @@ header img {
         background-position: left;
         padding: 2.5rem 4rem;
         padding-bottom: 1rem;
+        display: flex;
+        flex-direction: column;
+        gap: 0;
+        justify-content: space-between;
     }
     .main-content {
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1.5fr 1fr;
+        gap: 0;
         max-width: unset;
     }
 
-
+    header {
+        height: 3.5rem;
+    }
 
     .intro-desc {
         display: flex;
         flex-direction: column;
-        padding: 2rem;
+        padding: 2.5rem 0;
+        padding-right: 2rem;
         text-align: left;
     }
 
